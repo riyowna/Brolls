@@ -18,6 +18,21 @@ if (toggle && links) {
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
 
+// Use the official Brolls logo image in the header and footer.
+document.querySelectorAll('.brand').forEach((brand) => {
+  brand.innerHTML = '<img class="official-logo" src="assets/brolls-logo.png" alt="Brolls Vietnamese Rolling Broth logo">';
+});
+
+const logoStyle = document.createElement('style');
+logoStyle.textContent = `
+  .brand{display:inline-flex;align-items:center;max-width:230px}
+  .official-logo{display:block;width:100%;max-width:220px;height:auto;object-fit:contain;border-radius:8px}
+  .footer-brand{max-width:250px}
+  .footer-brand .official-logo{max-width:240px}
+  @media(max-width:620px){.brand{max-width:170px}.official-logo{max-width:165px}.footer-brand{max-width:210px}.footer-brand .official-logo{max-width:200px}}
+`;
+document.head.appendChild(logoStyle);
+
 // Public review snapshot. Keep this manually refreshed when ratings change.
 const reviewsSection = document.querySelector('.reviews');
 
