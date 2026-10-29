@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Brolls Vietnamese Rolling Broth | Olongapo</title>
   <meta name="description" content="Vietnamese comfort food in Olongapo — broth, rolls, noodles and casual dining at Brolls Vietnamese Rolling Broth." />
-  <meta name="theme-color" content="#16352b" />
+  <meta name="theme-color" content="#183c31" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
@@ -14,21 +14,20 @@
   <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </head>
 <body>
-  <div class="announcement">Vietnamese comfort food in Olongapo <span>•</span> Open daily 11AM–9PM</div>
+  <div class="announcement">Vietnamese comfort food in Olongapo <span aria-hidden="true">•</span> Open daily 11AM–9PM</div>
 
   <header class="site-header" id="top">
     <div class="container nav">
       <a class="brand" href="#top" aria-label="Brolls home">
-        <span class="brand-mark">B</span>
-        <span class="brand-copy"><strong>BROLLS</strong><small>VIETNAMESE ROLLING BROTH</small></span>
+        <img class="brand-logo" src="assets/brolls-logo.png" alt="Brolls Vietnamese Rolling Broth" width="960" height="550" />
       </a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#menu">Menu</a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+      <nav class="nav-links" id="primary-navigation" aria-label="Primary navigation">
+        <a href="#menu">Favorites</a>
         <a href="#story">Our Story</a>
         <a href="#gallery">Gallery</a>
         <a href="#visit">Visit</a>
-        <a class="nav-cta" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Order / Contact</a>
+        <a class="nav-cta" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Message to order</a>
       </nav>
     </div>
   </header>
@@ -42,13 +41,10 @@
         <h1>Vietnamese comfort food, <em>tucked away in Olongapo.</em></h1>
         <p class="hero-copy">Broth, rolls, noodles and bright Vietnamese flavors in a casual neighborhood setting.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#menu">View Menu</a>
-          <a class="button button-secondary" href="#visit">Get Directions</a>
+          <a class="button button-primary" href="#menu">See favorites</a>
+          <a class="button button-secondary" href="#visit">Get directions</a>
         </div>
-        <div class="hero-note">
-          <span>01</span>
-          <p>Built around comforting bowls, crisp rolls and food worth sharing.</p>
-        </div>
+        <p class="hero-note">Built around comforting bowls, crisp rolls and food worth sharing.</p>
       </div>
     </section>
 
@@ -60,7 +56,7 @@
         </div>
         <div class="intro-copy">
           <p>Brolls is a casual Vietnamese spot in Olongapo with a hidden-gem feel, a cozy atmosphere, and a menu centered on satisfying comfort food.</p>
-          <a href="#story" class="text-link">Discover Brolls <span>→</span></a>
+          <a href="#story" class="text-link">Discover Brolls <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -72,47 +68,31 @@
             <p class="eyebrow dark">Featured dishes</p>
             <h2>A few Brolls favorites.</h2>
           </div>
-          <p>Final dish names, descriptions and prices should be confirmed against the current official menu.</p>
+          <p>Comforting bowls, crisp rolls, grilled flavors and Vietnamese staples worth exploring.</p>
         </div>
 
         <div class="dish-grid">
           <article class="dish-card large">
-            <img src="https://images.unsplash.com/photo-1533787761082-492a5b83e614?auto=format&fit=crop&q=88&w=1600" alt="Vietnamese noodle soup" />
-            <div class="dish-copy">
-              <span>Broth-forward favorite</span>
-              <h3>Phở</h3>
-              <p>A comforting Vietnamese classic built around aromatic broth, noodles and fresh herbs.</p>
-            </div>
+            <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&q=82&w=1400" alt="Stock photo of Vietnamese noodle soup" width="1400" height="900" />
+            <div class="dish-copy"><span>Broth-forward favorite</span><h3>Phở</h3><p>A comforting Vietnamese classic built around aromatic broth, noodles and fresh herbs.</p></div>
           </article>
           <article class="dish-card">
-            <img src="https://images.unsplash.com/photo-1577859584099-38d38a4aacb5?auto=format&fit=crop&q=88&w=1200" alt="Crispy spring rolls" />
-            <div class="dish-copy">
-              <span>Crunchy favorite</span>
-              <h3>Fried Spring Rolls</h3>
-              <p>Crisp on the outside, savory inside, and made for dipping.</p>
-            </div>
+            <img loading="lazy" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&q=82&w=900" alt="Stock photo of crispy spring rolls" width="900" height="700" />
+            <div class="dish-copy"><span>Crunchy favorite</span><h3>Fried Spring Rolls</h3><p>Crisp on the outside, savory inside, and made for dipping.</p></div>
           </article>
           <article class="dish-card">
-            <img src="https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=88&w=1200" alt="Vietnamese rice noodles and grilled meat" />
-            <div class="dish-copy">
-              <span>Fresh + grilled</span>
-              <h3>Bún Chả</h3>
-              <p>Grilled flavors, rice noodles, herbs and a bright savory balance.</p>
-            </div>
+            <img loading="lazy" src="https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=82&w=900" alt="Stock photo of noodles and grilled ingredients" width="900" height="700" />
+            <div class="dish-copy"><span>Fresh + grilled</span><h3>Bún Chả</h3><p>Grilled flavors, rice noodles, herbs and a bright savory balance.</p></div>
           </article>
           <article class="dish-card">
-            <img src="https://images.unsplash.com/photo-1600454309261-3dc9b7597637?auto=format&fit=crop&q=88&w=1200" alt="Vietnamese sandwich" />
-            <div class="dish-copy">
-              <span>Handheld favorite</span>
-              <h3>Bánh Mì</h3>
-              <p>A Vietnamese favorite layered with freshness, texture and satisfying flavor.</p>
-            </div>
+            <img loading="lazy" src="https://images.unsplash.com/photo-1600454309261-3dc9b7597637?auto=format&fit=crop&q=82&w=900" alt="Stock photo of a Vietnamese-style sandwich" width="900" height="700" />
+            <div class="dish-copy"><span>Handheld favorite</span><h3>Bánh Mì</h3><p>A Vietnamese favorite layered with freshness, texture and satisfying flavor.</p></div>
           </article>
         </div>
 
         <div class="menu-strip">
           <div><strong>Want the current menu?</strong><span>Message Brolls for today's full menu, prices and availability.</span></div>
-          <a class="button button-dark" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Message Brolls</a>
+          <a class="button button-inverse" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Message to order</a>
         </div>
       </div>
     </section>
@@ -120,15 +100,14 @@
     <section class="story section-pad" id="story">
       <div class="container story-grid">
         <div class="story-image-wrap">
-          <div class="story-image"></div>
+          <div class="story-image" role="img" aria-label="Stock restaurant interior image"></div>
           <div class="story-badge"><span>BROLLS</span><small>OLONGAPO</small></div>
         </div>
         <div class="story-copy">
           <p class="eyebrow">The Brolls experience</p>
           <h2>Small place. Big comfort.</h2>
           <p>Brolls brings Vietnamese comfort food to Olongapo in a relaxed, intimate setting. The experience is simple: warm bowls, crisp rolls, friendly energy and food that makes you want to come back.</p>
-          <p>This section is intentionally written without unverified history or sourcing claims. Once the owners provide the official story, it can drop into the same layout.</p>
-          <a class="text-link light" href="#visit">Plan your visit <span>→</span></a>
+          <a class="text-link light" href="#visit">Plan your visit <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -136,33 +115,56 @@
     <section class="gallery section-pad" id="gallery">
       <div class="container">
         <div class="section-head gallery-head">
-          <div>
-            <p class="eyebrow dark">Gallery</p>
-            <h2>Eat with your eyes first.</h2>
-          </div>
-          <p>Replace these placeholders with Brolls' own food and interior photography for the finished client version.</p>
+          <div><p class="eyebrow dark">Gallery</p><h2>Eat with your eyes first.</h2></div>
+          <p>A visual taste of Vietnamese comfort food and casual dining.</p>
         </div>
         <div class="gallery-grid">
-          <img class="g1" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=88&w=1200" alt="Vietnamese food spread" />
-          <img class="g2" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=88&w=1200" alt="Restaurant interior" />
-          <img class="g3" src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=88&w=1200" alt="Fresh herbs and noodles" />
-          <img class="g4" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&q=88&w=1200" alt="Asian comfort food" />
+          <img class="g1" loading="lazy" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=82&w=1000" alt="Stock photo of a Vietnamese food spread" width="1000" height="1200" />
+          <img class="g2" loading="lazy" src="https://images.unsplash.com/photo-1516211697506-8360dbcfe9a4?auto=format&fit=crop&q=82&w=900" alt="Stock photo of casual restaurant seating" width="900" height="700" />
+          <img class="g3" loading="lazy" src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=82&w=900" alt="Stock photo of noodles and fresh herbs" width="900" height="700" />
+          <img class="g4" loading="lazy" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&q=82&w=1200" alt="Stock photo of Asian comfort food" width="1200" height="700" />
         </div>
       </div>
     </section>
 
-    <section class="reviews section-pad">
-      <div class="container">
-        <div class="reviews-head">
-          <p class="eyebrow">What people come back for</p>
-          <h2>Flavor, comfort and hidden-gem energy.</h2>
+    <section class="video-review-section section-pad" aria-labelledby="video-review-title">
+      <div class="container video-review-grid">
+        <div class="video-review-copy">
+          <p class="eyebrow dark">Featured YouTube review</p>
+          <h2 id="video-review-title">See Brolls through a diner's lens.</h2>
+          <p>An independent YouTube creator visited Brolls and shared the experience on video. Watch the full review for a closer look at the food, setting and overall visit.</p>
+          <a class="button button-inverse" href="https://www.youtube.com/watch?v=jEnMEuilGVQ" target="_blank" rel="noopener">Watch on YouTube</a>
         </div>
-        <div class="review-grid">
-          <article><span>01</span><p>Flavorful food and a cozy atmosphere.</p></article>
-          <article><span>02</span><p>Broth worth coming back for.</p></article>
-          <article><span>03</span><p>The kind of place that feels like a local find.</p></article>
+        <div class="video-frame-wrap">
+          <iframe src="https://www.youtube.com/embed/jEnMEuilGVQ" title="Featured YouTube review of Brolls Vietnamese Rolling Broth" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <p class="review-note">Paraphrased sentiment placeholders for demo use, not direct customer quotations.</p>
+      </div>
+    </section>
+
+    <section class="reviews section-pad" aria-labelledby="reviews-title">
+      <div class="container public-reviews">
+        <div class="review-summary">
+          <div class="review-summary-copy">
+            <p class="eyebrow">Public reviews</p>
+            <h2 id="reviews-title">What diners mention about Brolls.</h2>
+            <p class="review-summary-text">Public feedback commonly mentions flavorful food, friendly service, an intimate setting and a hidden-gem atmosphere.</p>
+          </div>
+          <div class="review-links-card">
+            <span class="review-source-label">Google Reviews</span>
+            <strong>Read the latest diner feedback</strong>
+            <p>Ratings and review counts can change over time.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Brolls+Vietnamese+Rolling+Broth+Olongapo" target="_blank" rel="noopener">Read reviews on Google →</a>
+          </div>
+        </div>
+        <div class="public-review-grid">
+          <article class="public-review-card"><span class="summary-label">Public review summary</span><h3>Flavorful food and attentive service</h3><p>One recent Google reviewer highlighted the food, fried spring rolls, welcoming staff and attentive service, and said they planned to return.</p><div class="review-tags"><span>Food</span><span>Service</span><span>Spring rolls</span></div></article>
+          <article class="public-review-card"><span class="summary-label">Public review summary</span><h3>Clean, intimate indoor setting</h3><p>Another diner described the food as flavorful and the indoor space as clean, air-conditioned and well suited to smaller groups.</p><div class="review-tags"><span>Atmosphere</span><span>Comfort</span><span>Groups</span></div></article>
+          <article class="public-review-card"><span class="summary-label">Public review summary</span><h3>A hidden-gem kind of place</h3><p>A public reviewer called Brolls a hidden gem, liked the food and photogenic atmosphere, and complimented the friendly staff.</p><div class="review-tags"><span>Hidden gem</span><span>Atmosphere</span><span>Staff</span></div></article>
+        </div>
+        <div class="review-sources">
+          <p>Summaries are based on public reviews and are not presented as direct quotations.</p>
+          <div><a href="https://www.google.com/maps/search/?api=1&query=Brolls+Vietnamese+Rolling+Broth+Olongapo" target="_blank" rel="noopener">Google Maps</a><a href="https://restaurantguru.com/Brolls-Vietnamese-Rolling-Broth-Olongapo" target="_blank" rel="noopener">Restaurant Guru</a></div>
+        </div>
       </div>
     </section>
 
@@ -177,44 +179,31 @@
             <div><span>Service</span><strong>Dine-in · Takeaway</strong></div>
           </div>
           <div class="visit-actions">
-            <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&query=Brolls+Vietnamese+Rolling+Broth+Olongapo" target="_blank" rel="noopener">Get Directions</a>
-            <a class="button button-outline" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Contact on Facebook</a>
+            <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&query=Brolls+Vietnamese+Rolling+Broth+Olongapo" target="_blank" rel="noopener">Get directions</a>
+            <a class="button button-outline" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Message Brolls</a>
           </div>
-          <small>Opening hours should be reconfirmed with the restaurant before this is used as the official site.</small>
         </div>
         <a class="map-card" href="https://www.google.com/maps/search/?api=1&query=Brolls+Vietnamese+Rolling+Broth+Olongapo" target="_blank" rel="noopener" aria-label="Open Brolls in Google Maps">
-          <div class="map-lines"></div>
-          <div class="map-pin">B</div>
-          <div class="map-copy"><strong>Brolls</strong><span>Fendler Extension</span></div>
+          <div class="map-lines"></div><div class="map-pin">B</div><div class="map-copy"><strong>Brolls</strong><span>Fendler Extension</span></div>
         </a>
       </div>
     </section>
 
     <section class="contact section-pad">
       <div class="container contact-card">
-        <div>
-          <p class="eyebrow">Hungry?</p>
-          <h2>See what’s cooking.</h2>
-          <p>Check the current menu, ask about availability, or message the restaurant directly.</p>
-        </div>
-        <a class="button button-light" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Message Brolls</a>
+        <div><p class="eyebrow">Hungry?</p><h2>See what’s cooking.</h2><p>Check the current menu, ask about availability, or message the restaurant directly.</p></div>
+        <a class="button button-light" href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Message to order</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container footer-grid">
-      <a class="brand footer-brand" href="#top">
-        <span class="brand-mark inverse">B</span>
-        <span class="brand-copy"><strong>BROLLS</strong><small>VIETNAMESE ROLLING BROTH</small></span>
+      <a class="brand footer-brand" href="#top" aria-label="Brolls home">
+        <img class="brand-logo footer-logo" src="assets/brolls-logo.png" alt="Brolls Vietnamese Rolling Broth" width="960" height="550" loading="lazy" />
       </a>
-      <div class="footer-links">
-        <a href="#menu">Menu</a>
-        <a href="#story">Our Story</a>
-        <a href="#visit">Visit</a>
-        <a href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Facebook</a>
-      </div>
-      <p>© <span id="year"></span> Brolls. Demo website.</p>
+      <div class="footer-links"><a href="#menu">Favorites</a><a href="#story">Our Story</a><a href="#visit">Visit</a><a href="https://www.facebook.com/Brollsviet/" target="_blank" rel="noopener">Facebook</a></div>
+      <p>© <span id="year"></span> Brolls.</p>
     </div>
   </footer>
 
